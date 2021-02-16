@@ -14,9 +14,9 @@ Generate json file from FontAwesome
 ## LineAwesome
 
 <pre>
-  var laBrands = [];
-  document.querySelectorAll('#BrandIcons .name').forEach((elm, id)=>{
+    var laBrands = [];
+    document.querySelectorAll('#BrandIcons .name').forEach((elm, id)=>{
     laBrands.push(elm.innerText);
-  })
-  JSON.stringify(laBrands)
+    })
+    JSON.stringify(laBrands)
 </pre>
